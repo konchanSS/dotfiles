@@ -1,0 +1,21 @@
+[user]
+  email = b1447864@planet.kanazawa-it.ac.jp
+  name = konchanSS
+[color]
+	ui = true
+[core]
+	filemode = false
+[alias]
+  co = checkout
+	cb = checkout -b
+	b = branch
+  s = status
+  d = diff
+	p = pull
+	pu = push
+	r = remote
+[ghq]
+  root = /Users/kontanikazumasa/src
+[merge "mergepbx"]
+  name = XCode project files merger
+  driver = /usr/local/bin/mergepbx %O %A %B
