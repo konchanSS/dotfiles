@@ -29,7 +29,7 @@ set fish_plugins theme peco
 eval (python -m virtualfish)
 function fish_user_key_bindings
   bind \c]  peco_change_directory
-  bind \cr peco_select_ristory
+  bind \cr peco_select_history
 end
 
 # The next line updates PATH for the Google Cloud SDK.
