@@ -18,6 +18,7 @@ scriptencoding utf-8
 set encoding=utf-8
 set lazyredraw
 set clipboard=unnamed,autoselect
+set backspace=indent,eol,start
 
 inoremap  <C-e> <END>
 inoremap  <C-a> <HOME>
@@ -79,6 +80,7 @@ NeoBundle 'maverickg/stan.vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'w0rp/ale'
+NeoBundle 'scrooloose/nerdtree'
 
 "-----------------------------------------------------------------------
 call neobundle#end()
