@@ -7,6 +7,7 @@
 #     source $OMF_PATH/init.fish
 set fish_theme agnoster
 alias g='git'
+alias gd='git branch -D'
 alias gs='git status'
 alias gaa='git add -A'
 alias ga='git add'
