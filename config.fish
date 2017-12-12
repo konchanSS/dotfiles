@@ -24,6 +24,7 @@ alias be='bundle exec'
 set -x GOPATH $HOME
 set PYENV_ROOT $HOME/.pyenv
 . (pyenv init - | psub)
+set PATH $PATH /Users/kontanikazumasa/.rbenv/shims/
 set PATH $PATH $GOPATH/bin
 set PATH $PATH $HOME/google-cloud-sdk/bin
 set fish_plugins theme peco
@@ -35,3 +36,4 @@ end
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/kontanikazumasa/Downloads/google-cloud-sdk 2/path.fish.inc' ]; if type source > /dev/null; source '/Users/kontanikazumasa/Downloads/google-cloud-sdk 2/path.fish.inc'; else; . '/Users/kontanikazumasa/Downloads/google-cloud-sdk 2/path.fish.inc'; end; end
+eval (rbenv init - | source)
