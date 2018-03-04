@@ -81,6 +81,9 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'w0rp/ale'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'mxw/vim-jsx'
+
 
 "-----------------------------------------------------------------------
 call neobundle#end()
@@ -121,6 +124,7 @@ let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#sources#syntax#min_keyword_length = 3
 let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
+let g:jsx_ext_required = 0
 if !exists('g:neocomplete#keyword_patterns')
   let g:neocomplete#keyword_patterns = {}
 endif

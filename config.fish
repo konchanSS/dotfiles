@@ -20,6 +20,7 @@ alias gpl='git pull origin'
 alias gst='git stash'
 alias gl='git log'
 alias be='bundle exec'
+alias rc='react-native'
 
 set -x GOPATH $HOME
 set PYENV_ROOT $HOME/.pyenv
@@ -28,6 +29,10 @@ set PATH $PATH /Users/kontanikazumasa/.rbenv/shims/
 set PATH $PATH $GOPATH/bin
 set PATH $PATH $HOME/google-cloud-sdk/bin
 set fish_plugins theme peco
+set ANDROID_HOME $HOME/Library/Android/sdk
+set PATH $PATH $ANDROID_HOME/emulator
+set PATH $PATH $ANDROID_HOME/tools
+set PATH $PATH $ANDROID_HOME/platform-tools
 eval (python -m virtualfish)
 function fish_user_key_bindings
   bind \c]  peco_change_directory
