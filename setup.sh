@@ -20,4 +20,12 @@ esac
 
 echo '---------------------'
 
+echo 'clone dracula theme?[Y/n]'
+read ANSWER
+case $ANSWER in
+  "" | "Y" | "y" )
+    git clone https://github.com/dracula/iterm.git;;
+  * ) echo "clone dracula theme skip";;
+esac
 
+echo '---------------------'
